@@ -1,20 +1,20 @@
+#include "main.h"
+
 /**
- * C program to print all alphabets from a to z
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-
-#include <stdio.h>
-
-	int main = alphabet(void)
+int main(void)
 {
-		char ch;
+	void print_alphabet(void)
+{
+	int i;
 
-		printf("Alphabets from a - z are: \n");
-		for (ch = 'a'; ch <= 'z'; ch++)
+	for (i = 97; i <= 122; i++)
 	{
-		printf(ch"\n");
-		}
-	/*
-	 * this returns value of 0
-	 */
-	return (0);
+		_putchar(i);
 	}
+	_putchar('\n');
+}
+}
